@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="HR Suite" parallel="tests" thread-count="3" >
+<groups>
+<run>
+<include name="Smoke"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="com.hrmapp.resources.Listeners"></listener>
+</listeners>
+  <test  name ="Regression">
+  
+    <classes>
+      <class name="com.hrmapp.testcases.ValidLoginTest"/>
+      <class name="com.hrmapp.testcases.SearchUser"/>
+      <class name="com.hrmapp.testcases.SearchUserTest"/>
+    </classes>
+  </test > <!-- Test -->
+</suite > <!-- Suite -->
