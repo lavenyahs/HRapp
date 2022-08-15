@@ -16,7 +16,7 @@ public class ValidLoginTest extends BaseClass {
 		 log.info("Title Verification test");
 		 ValidLogin = new LoginPageValidLogin();
 		String Title = ValidLogin.verifyTitle();
-		Assert.assertEquals(Title, "OrangeH");
+		Assert.assertEquals(Title, "OrangeHRM");
 		log.info("Title Verified");
 		 
 		 }
