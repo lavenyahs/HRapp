@@ -11,6 +11,24 @@
       </run>
     </groups>
     <classes>
+      <class name="com.hrmapp.testcases.SearchUser">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="userNamefield"/>
+          <include name="getDriver"/>
+          <include name="ExtentReports"/>
+          <include name="loadConfig1"/>
+        </methods>
+      </class> <!-- com.hrmapp.testcases.SearchUser -->
+      <class name="com.hrmapp.testcases.SearchUserTest">
+        <methods>
+          <include name="userFind"/>
+          <include name="launchBrowser"/>
+          <include name="getDriver"/>
+          <include name="ExtentReports"/>
+          <include name="loadConfig1"/>
+        </methods>
+      </class> <!-- com.hrmapp.testcases.SearchUserTest -->
       <class name="com.hrmapp.testcases.ValidLoginTest">
         <methods>
           <include name="launchBrowser"/>
