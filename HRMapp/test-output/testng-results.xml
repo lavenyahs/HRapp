@@ -2,7 +2,7 @@
 <testng-results ignored="6" total="10" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-12T19:44:15 EDT" name="HR Suite" finished-at="2022-08-12T19:44:54 EDT" duration-ms="38852">
+  <suite started-at="2022-08-14T21:21:08 EDT" name="HR Suite" finished-at="2022-08-14T21:21:46 EDT" duration-ms="37929">
     <groups>
       <group name="Smoke">
         <method signature="SearchUser.userNamefield()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" name="userNamefield" class="com.hrmapp.testcases.SearchUser"/>
@@ -11,65 +11,65 @@
         <method signature="ValidLoginTest.verifyTitleTest()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" name="verifyTitleTest" class="com.hrmapp.testcases.ValidLoginTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-08-12T19:44:15 EDT" name="Regression" finished-at="2022-08-12T19:44:54 EDT" duration-ms="38852">
+    <test started-at="2022-08-14T21:21:08 EDT" name="Regression" finished-at="2022-08-14T21:21:46 EDT" duration-ms="37929">
       <class name="com.hrmapp.testcases.SearchUser">
-        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-12T19:44:30 EDT" name="getDriver" finished-at="2022-08-12T19:44:30 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-14T21:21:22 EDT" name="getDriver" finished-at="2022-08-14T21:21:22 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-12T19:44:30 EDT" name="launchBrowser" finished-at="2022-08-12T19:44:34 EDT" duration-ms="3940" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-14T21:21:22 EDT" name="launchBrowser" finished-at="2022-08-14T21:21:26 EDT" duration-ms="3808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="userNamefield()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-12T19:44:34 EDT" name="userNamefield" finished-at="2022-08-12T19:44:42 EDT" duration-ms="7933" status="PASS">
+        <test-method signature="userNamefield()[pri:0, instance:com.hrmapp.testcases.SearchUser@89c10b7]" started-at="2022-08-14T21:21:26 EDT" name="userNamefield" finished-at="2022-08-14T21:21:34 EDT" duration-ms="7896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userNamefield -->
       </class> <!-- com.hrmapp.testcases.SearchUser -->
       <class name="com.hrmapp.testcases.SearchUserTest">
-        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-12T19:44:42 EDT" name="getDriver" finished-at="2022-08-12T19:44:42 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-12T19:44:42 EDT" name="launchBrowser" finished-at="2022-08-12T19:44:46 EDT" duration-ms="3912" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-14T21:21:34 EDT" name="launchBrowser" finished-at="2022-08-14T21:21:38 EDT" duration-ms="3853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="userFind()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-12T19:44:46 EDT" name="userFind" finished-at="2022-08-12T19:44:54 EDT" duration-ms="7407" status="PASS">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-14T21:21:34 EDT" name="getDriver" finished-at="2022-08-14T21:21:34 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method signature="userFind()[pri:0, instance:com.hrmapp.testcases.SearchUserTest@5dbe30be]" started-at="2022-08-14T21:21:38 EDT" name="userFind" finished-at="2022-08-14T21:21:46 EDT" duration-ms="7565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFind -->
       </class> <!-- com.hrmapp.testcases.SearchUserTest -->
       <class name="com.hrmapp.testcases.ValidLoginTest">
-        <test-method is-config="true" signature="ExtentReports()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:15 EDT" name="ExtentReports" finished-at="2022-08-12T19:44:15 EDT" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="ExtentReports()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:07 EDT" name="ExtentReports" finished-at="2022-08-14T21:21:08 EDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReports -->
-        <test-method is-config="true" signature="loadConfig1()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:15 EDT" name="loadConfig1" finished-at="2022-08-12T19:44:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="loadConfig1()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:08 EDT" name="loadConfig1" finished-at="2022-08-14T21:21:08 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig1 -->
-        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:15 EDT" name="getDriver" finished-at="2022-08-12T19:44:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:08 EDT" name="getDriver" finished-at="2022-08-14T21:21:08 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:15 EDT" name="launchBrowser" finished-at="2022-08-12T19:44:20 EDT" duration-ms="5580" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:08 EDT" name="launchBrowser" finished-at="2022-08-14T21:21:13 EDT" duration-ms="5161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="LoginTest()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:20 EDT" name="LoginTest" finished-at="2022-08-12T19:44:26 EDT" duration-ms="5361" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:13 EDT" name="LoginTest" finished-at="2022-08-14T21:21:18 EDT" duration-ms="5401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:26 EDT" name="getDriver" finished-at="2022-08-12T19:44:26 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:18 EDT" name="getDriver" finished-at="2022-08-14T21:21:18 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:26 EDT" name="launchBrowser" finished-at="2022-08-12T19:44:30 EDT" duration-ms="4200" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:18 EDT" name="launchBrowser" finished-at="2022-08-14T21:21:22 EDT" duration-ms="3695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitleTest()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-12T19:44:30 EDT" name="verifyTitleTest" finished-at="2022-08-12T19:44:30 EDT" duration-ms="16" status="FAIL">
+        <test-method signature="verifyTitleTest()[pri:0, instance:com.hrmapp.testcases.ValidLoginTest@5241cf67]" started-at="2022-08-14T21:21:22 EDT" name="verifyTitleTest" finished-at="2022-08-14T21:21:22 EDT" duration-ms="15" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [OrangeH] but found [OrangeHRM]]]>

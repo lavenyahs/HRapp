@@ -79,10 +79,10 @@
 			<suiteXmlFiles>
 				<suiteXmlFile>${testng.xml}</suiteXmlFile>
 			</suiteXmlFiles>
-			<systemPropertyVariables>
-				<executionBrowser> ${browser}</executionBrowser>
+			
 				
-			</systemPropertyVariables>
+				
+			
 		</configuration>
 		
 	</plugin>
