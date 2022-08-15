@@ -6,9 +6,7 @@
 <include name="Smoke"></include>
 </run>
 </groups>
-<listeners>
-<listener class-name="com.hrmapp.resources.Listeners"></listener>
-</listeners>
+
   <test  name ="Regression">
   
     <classes>
